@@ -1,0 +1,16 @@
+# Never commit raw exports or the id -> pseudonym tables
+data/raw/*
+!data/raw/.gitkeep
+data/private/
+# Pseudonymized message tables: not published until the DRI project approves the data release
+data/processed/*.csv
+# Personal working notes
+TODO_preprint.md
+# Environments and editors
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.claude/

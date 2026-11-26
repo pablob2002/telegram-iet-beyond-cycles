@@ -1,0 +1,9 @@
+# Minimum versions; pin exact versions before tagging a release (pip freeze).
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+powerlaw>=1.5
+lifelines>=0.27
+jupyter
